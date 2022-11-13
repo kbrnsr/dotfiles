@@ -1,2 +1,2 @@
-cp -r git/.gitconfig ~/
-cp -r git/.gitconfig-github ~/
+cp git/.gitconfig ~/.gitconfig
+cp git/.gitconfig-github ~/.gitconfig-github
