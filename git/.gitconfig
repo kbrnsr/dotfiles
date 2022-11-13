@@ -1,0 +1,9 @@
+[user]
+	name = Kabeer Nasir
+	signingkey = 834A65AD0BAD4642
+[commit]
+	gpgsign = true
+[includeIf "gitdir:~/github-projects/"]
+	path = ~/.gitconfig-github
+[includeIf "gitdir:workspaces/github/"]
+  path = ~/.gitconfig-github
