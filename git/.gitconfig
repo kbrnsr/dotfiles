@@ -3,7 +3,5 @@
 	signingkey = 834A65AD0BAD4642
 [commit]
 	gpgsign = true
-[includeIf "gitdir:~/github-projects/"]
+[includeIf "hasconfig:remote.*.url:https://github.com/kbrnsr/**"]
 	path = ~/.gitconfig-github
-[includeIf "gitdir:workspaces/github/"]
-  path = ~/.gitconfig-github
