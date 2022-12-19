@@ -1,7 +1,6 @@
 [user]
 	name = Kabeer Nasir
 	signingkey = 834A65AD0BAD4642
+  email = 1452229+kbrnsr@users.noreply.github.com
 [commit]
 	gpgsign = true
-[includeIf "hasconfig:remote.*.url:https://github.com/kbrnsr/**"]
-	path = ~/.gitconfig-github
